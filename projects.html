@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All Projects — Alusol Systems</title>
+  <meta name="theme-color" content="#4F46E5" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              900: '#312e81',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+  <header class="bg-white border-b sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 group">
+        <div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-md">A</div>
+        <span class="font-display font-bold text-lg text-slate-900">Indrajit Alusol<span class="text-brand-600">.</span></span>
+      </a>
+      
+      <a href="index.html" class="text-sm font-semibold text-slate-600 hover:text-brand-600 flex items-center gap-2 transition-colors">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+        Back to Home
+      </a>
+    </div>
+  </header>
+
+  <main class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="mb-12">
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mb-4">Our Portfolio</h1>
+        <p class="text-lg text-slate-600 max-w-2xl">
+          We have delivered over <span class="font-bold text-brand-600">100+ projects</span>. Here is a selection of our finest work delivering solutions across <span class="text-slate-900 font-semibold">India</span>.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group">
+          <div class="aspect-video bg-slate-200 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="FinTech Dashboard" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-6">
+            <div class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">FinTech</div>
+            <h3 class="font-bold text-xl text-slate-900 mb-2">SecurePay Dashboard</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">A comprehensive financial analytics platform processing real-time transactions for over 50k users.</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group">
+          <div class="aspect-video bg-slate-200 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=800&q=80" alt="E-Commerce App" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-6">
+            <div class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">E-Commerce</div>
+            <h3 class="font-bold text-xl text-slate-900 mb-2">Urban Storefront</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">Redesigned the mobile shopping experience for a fashion retailer, increasing conversion by 40%.</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group">
+          <div class="aspect-video bg-slate-200 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="SaaS Tool" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-6">
+            <div class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">SaaS</div>
+            <h3 class="font-bold text-xl text-slate-900 mb-2">TaskMaster Pro</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">Project management tool for remote teams featuring real-time collaboration and file sharing.</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group">
+          <div class="aspect-video bg-slate-200 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=800&q=80" alt="Backend API" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-6">
+            <div class="text-xs font-bold text-brand-600 uppercase tracking-wider mb-2">Backend Infrastructure</div>
+            <h3 class="font-bold text-xl text-slate-900 mb-2">LogiTech API</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">High-performance API gateway handling 10,000+ requests per second with 99.99% uptime.</p>
+          </div>
+        </article>
+        
+      </div>
+      
+      <div class="mt-20 text-center bg-slate-900 rounded-3xl p-12 relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-brand-500 rounded-full blur-3xl opacity-20"></div>
+        <div class="relative z-10">
+          <h2 class="text-3xl font-display font-bold text-white mb-4">Have a project in mind?</h2>
+          <p class="text-slate-400 mb-8">We'd love to add your success story to this list.</p>
+          <a href="index.html#contact" class="inline-block bg-white text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-brand-50 transition-colors">Start a Conversation</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="bg-white border-t border-slate-100 py-8 text-center text-sm text-slate-500">
+    &copy; <span id="year"></span> Alusol Systems. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
